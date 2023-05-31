@@ -18,10 +18,10 @@ time.sleep(5)
 # Signing in to DLab
 driver.find_element(By.ID, "social-epam-idp").click()
 time.sleep(5)
-driver.find_element(By.CSS_SELECTOR, "input[type=email]").send_keys("phaneendra_bhupathiraju@epam.com")
+driver.find_element(By.CSS_SELECTOR, "input[type=email]").send_keys("@xyz.com")
 driver.find_element(By.CSS_SELECTOR, "input[type=submit]").click()
 time.sleep(2)
-driver.find_element(By.CSS_SELECTOR, "input[name=passwd]").send_keys("Ka@21@kab7")
+driver.find_element(By.CSS_SELECTOR, "input[name=passwd]").send_keys("pwd")
 driver.find_element(By.ID, "idSIButton9").click()
 time.sleep(50)
 
